@@ -1,4 +1,7 @@
 # MinerControl
+
+## This project is out-dated and no longer maintained.
+
 Keep your mining software up and running
 
 __
