@@ -19,8 +19,7 @@ How to use the MinerControl
 
 Don't forget to change the START command with your miner settings!!
 
-  e.g. your previous miner command was 'ccminer -o stratum+tcp://ip.xx:PORT -u adress -p x'
+  e.g. your previous miner command was '%minerProcess% -o stratum+tcp://ip.xx:PORT -u address -p x'
 
   >new line will be
-  START ccminer -o stratum+tcp://ip.xx:PORT -u adress -p x
-
+  START %minerProcess% -o stratum+tcp://ip.xx:PORT -u address -p x
