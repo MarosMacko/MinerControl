@@ -66,7 +66,7 @@ EXIT /B %ERRORLEVEL%
   ECHO [%TIME%] Starting %minerProcess%
   ::REPLACE WITH YOUR MINER CONFIG
   ::
-  START ccminer -o stratum+tcp://address:port -u wallet -p x
+  START %minerProcess% -o stratum+tcp://address:port -u wallet -p x
   ::
   ::REPLACE WITH YOUR MINER CONFIG
 
